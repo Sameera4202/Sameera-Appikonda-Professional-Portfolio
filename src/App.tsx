@@ -187,7 +187,7 @@ export default function App() {
 
             <div className="flex flex-wrap gap-4">
               <a href="#projects" className="px-8 py-4 bg-[#06B6D4] text-white rounded-full font-bold hover:bg-[#22D3EE] transition-all hover:scale-105 shadow-[0_0_20px_rgba(6,182,212,0.4)]">VIEW MY WORK ↗</a>
-              <a href="/resume.pdf" download="Sameera_Appikonda_Resume.pdf" className="px-8 py-4 bg-[#0F172A] border border-[#06B6D4]/30 rounded-full font-bold hover:border-[#06B6D4] text-white transition-all hover:scale-105">DOWNLOAD RESUME</a>
+              <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="px-8 py-4 bg-[#0F172A] border border-[#06B6D4]/30 rounded-full font-bold hover:border-[#06B6D4] text-white transition-all hover:scale-105">DOWNLOAD RESUME</a>
             </div>
           </motion.div>
         </div>
